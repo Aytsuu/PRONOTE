@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.header{
+    width: 100vw;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background: none;
+}
+
+.logo{
+    width: 40rem;
+    background: none;
+}
+
+.logo img{
+    width: 35px;
+    height: 35px;
+    margin-left: 15px;
+}
+
+.title{
+    width: 40rem;
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+}
+
+.pro{
+    color: #FF003D;
+    display: inline-flex;
+    transform: rotateX(180deg);
+}
+
+.tasker{
+    color: #fff;
+}
+
+.account{
+    width: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 1rem;
+    background: none;
+    margin-right: 20px;
+}
+
+.account img{
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.name h1{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 60%);
+}
+
+.name img{
+    width: 25px;
+    height: 25px;
+}
+
+.notifIcon{
+    width: 35px;
+    height: 35px;
+}
+
+

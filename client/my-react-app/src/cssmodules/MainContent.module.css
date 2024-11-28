@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container{
+    max-width: 150rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContent{
+    width: 55rem;
+    height: 100%;
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.fields{
+    margin-top: 10rem;
+    width: 45rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.fields input, .fields textarea{
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgba(255,255,255,0.1);
+    width: 45rem;
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    outline: none;
+}
+
+.fields input{
+    height: 2.5rem;
+    font-size: 17px;
+}
+
+.fields textarea{
+    height: 10rem;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.fields .footer{
+    margin-top: 1rem;
+    width: 45rem;
+    display: flex;
+    justify-content: right;
+}
+
+.footer button{
+    font-family: "Work Sans", sans-serif;
+    font-size: 15px;
+    background: none;
+    border: none;
+    border-radius: 15px;
+    width: 5rem;
+    height: 2rem;
+    background-color: #FF003D;
+    color: #1b1b1b;
+    cursor: pointer;
+
+}
+
+/*Display*/
+
+.display{
+    width: 45rem;
+    color: rgba(255,255,255, 0.6);
+    font-family: "Work Sans", sans-serif;
+    height: 30rem;
+}
+
+.display h1{
+    padding-bottom: 1rem;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.display table{
+    font-weight: 300;
+    font-size: 15px;
+    border-collapse: separate;
+    border-spacing: 1px 10px;
+}
+
+.display table td{
+    padding: 5px;
+    height: 3rem;
+    background-color: #1b1b1b;
+    cursor: pointer;
+}
+
+.display table td:nth-child(1){
+    width: 40rem;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding-left: 1rem;
+}
+
+.display table td:nth-child(2){
+    width: 6rem;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    text-align: center;
+}
