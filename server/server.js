@@ -9,13 +9,14 @@ app.use(express.json())
 const db = knex({
     client: 'pg',
     connection: {
-        host: '',
-        user: '',
-        password: '',
-        database: '',
-        ssl: { rejectUnauthorized: false } 
+        host: 'db-cs196.cri2ageo4j6r.us-east-1.rds.amazonaws.com',                   // Database host
+        user: 'postgres',                   // Your PostgreSQL username
+        password: 'Gwapojosef#1',               // Your PostgreSQL password
+        database: 'DEMO',               // Database name
+        // SSL configuration
+        ssl: { rejectUnauthorized: false }  //SSL configuration llows connections even with untrusted certificates
     },
-});
+}); 
 
 const Note = {
   create: async (noteData) => {

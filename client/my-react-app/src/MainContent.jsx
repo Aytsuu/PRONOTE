@@ -79,7 +79,7 @@ function MainContent(){
                                             return(
                                                 <tr key={note.note_id}>
                                                     <td>{note.note_title}</td>
-                                                    <td>{formattedDate}</td>
+                                                    <td></td>
                                                 </tr>
                                             )
                                         })}
